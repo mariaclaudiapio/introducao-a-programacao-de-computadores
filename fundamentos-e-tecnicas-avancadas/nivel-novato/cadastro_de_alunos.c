@@ -5,7 +5,7 @@ int main()
     // Cabeçalho
     puts("");
     puts("***************************************************");
-    puts("**   Hora de Codar - Cálculo da Média de Notas   **");
+    puts("**   Hora de Codar - Cadastro de Alunos   **");
     puts("***************************************************");
     puts("");
 
