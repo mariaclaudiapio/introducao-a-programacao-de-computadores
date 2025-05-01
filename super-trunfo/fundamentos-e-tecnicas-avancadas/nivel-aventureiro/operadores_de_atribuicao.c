@@ -25,8 +25,34 @@ int main()
     resultado /= 5; // atribuição com divisão (mesmo que resultado = resultado / 05)
     printf("Atribuição Divisiva com Incremento | resultado = %d\n", resultado);
 
+    // Operadores de Incremento e de Decremento
+    // Pós-Incremento (primeiro atribui e depois incrementa)
+    int segundoNumero = 10;
+    puts("******");
+    printf("Antes do Incremento: %d\n", segundoNumero);
+    segundoNumero++; // é o mesmo que segundoNumero + 1
+    printf("Depois do Incremento: %d\n", segundoNumero);
+
+    int terceiroNumero = 10;
+    puts("******");
+    printf("Antes do Decremento: %d\n", terceiroNumero);
+    terceiroNumero--; // é o mesmo que segundoNumero + 1
+    printf("Depois do Decremento: %d\n", terceiroNumero);
+
+    // Pré-incremento (primeiro incrementa, depois atribui)   
+    int quartoNumero = 10;
+    puts("******");
+    printf("Antes do Incremento: %d\n", quartoNumero);
+    ++quartoNumero; // é o mesmo que segundoNumero + 1
+    printf("Depois do Incremento: %d\n", quartoNumero);
+
+    int quintoNumero = 10;
+    puts("******");
+    printf("Antes do Decremento: %d\n", quintoNumero);
+    --quintoNumero; // é o mesmo que segundoNumero + 1
+    printf("Depois do Decremento: %d\n", quintoNumero);
+
     puts("");
 
     return 0;
-
 }
