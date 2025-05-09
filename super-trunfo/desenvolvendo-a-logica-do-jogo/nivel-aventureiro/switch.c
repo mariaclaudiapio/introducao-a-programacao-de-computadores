@@ -39,7 +39,7 @@ int main()
             break;
         default:
             printf("Opção Inválida.\n");
-    }
+    }    
 
     printf("\n");
     
