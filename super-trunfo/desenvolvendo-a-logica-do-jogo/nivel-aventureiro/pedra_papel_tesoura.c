@@ -9,7 +9,7 @@ int main()
     printf("**   Pedra, Papel, Tesoura  **\n");
     printf("******************************\n");
 
-    // Pedra ganha de tesoura, tesoura ganha de papel, papel ganha de pedra
+    // Regra do Jogo: pedra ganha de tesoura, tesoura ganha de papel, papel ganha de pedra
     
     // Declaração de Variáveis
     int escolhaDoJogador, escolhaDoComputador;
@@ -58,7 +58,7 @@ int main()
     // Checagem do ganhador
     if(escolhaDoJogador == escolhaDoComputador)
     {
-        printf("###   O jogo empatou!  ###");
+        printf("###   O jogo empatou!  ###\n");
     }
     else if((escolhaDoJogador == 1 && escolhaDoComputador == 3) ||
         (escolhaDoJogador == 2 && escolhaDoComputador == 1) ||
