@@ -5,7 +5,7 @@
 // funçao recursiva que decrementa valores
 void funcaoRecursiva(int numero)
 {
-    if(numero > 0)
+    if(numero > 0) // condição base para evitar os loops infinitos
     {
         printf("%d \n", numero);
 
