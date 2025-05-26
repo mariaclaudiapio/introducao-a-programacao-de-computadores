@@ -20,8 +20,7 @@ int main()
         for(int coluna = 0; coluna < 3; coluna++)
         {
             printf("%d ", numeros[linha][coluna]);
-        }
-              
+        }              
         printf("]\n");
     }
 
